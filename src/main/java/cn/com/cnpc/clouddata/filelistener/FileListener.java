@@ -6,6 +6,11 @@ import org.apache.commons.io.monitor.FileAlterationObserver;
 import java.io.File;
 import java.util.logging.Logger;
 
+/**
+2023.1.14日
+对该文件进行L审核设置（之后每日更新一次）
+*/
+
 public class FileListener extends FileAlterationListenerAdaptor {
     private Logger log = Logger.getLogger(String.valueOf(FileListener.class));
 
