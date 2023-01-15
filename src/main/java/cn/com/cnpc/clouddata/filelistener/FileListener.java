@@ -7,8 +7,11 @@ import java.io.File;
 import java.util.logging.Logger;
 
 /**
-2023.1.14日
+2023.1.14
 对该文件进行L审核设置（之后每日更新一次）
+
+2023.1.15
+对该文件进行L审核（第二次）
 */
 
 public class FileListener extends FileAlterationListenerAdaptor {
