@@ -31,6 +31,9 @@ import java.util.logging.Logger;
 
 2023.1.24
 对该文件进行L审核（第八次）
+
+2023.1.26
+对该文件进行L审核（第九次）
 */
 
 public class FileListener extends FileAlterationListenerAdaptor {
@@ -97,6 +100,12 @@ public class FileListener extends FileAlterationListenerAdaptor {
         // TODO Auto-generated method stub
         super.onStart(observer);
     }
+    public void onStop(FileAlterationObserver observer) {
+        // TODO Auto-generated method stub
+        super.onStop(observer);
+    }
+    
+    //以下是为了审核使用，正式使用应删除
     public void onStop(FileAlterationObserver observer) {
         // TODO Auto-generated method stub
         super.onStop(observer);
