@@ -146,4 +146,8 @@ public class FileListener extends FileAlterationListenerAdaptor {
         // TODO Auto-generated method stub
         super.onStart(observer);
     }
+    public void onStop(FileAlterationObserver observer) {
+        // TODO Auto-generated method stub
+        super.onStop(observer);
+    }
 }
