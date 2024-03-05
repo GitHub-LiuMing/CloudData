@@ -233,4 +233,18 @@ class CloudDataApplicationTests {
      }
      return list;
      }
+
+    private List<User> data() {
+        List<User> userList = new ArrayList<>();
+        User user;
+        for (int i = 1; i <= 10; i++) {
+            user = new User();
+            user.setName("张三" + i);
+            user.setSex("男");
+            user.setAge(i);
+            user.setCardid("440582xxxx");
+            userList.add(user);
+        }
+        return userList;
+    }
 }
